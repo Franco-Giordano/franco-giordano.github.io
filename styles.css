@@ -48,7 +48,7 @@ body {
 	color: #04143A;
 	opacity: 0;
 	transform: translateY(20px);
-	transition: opacity 1s ease, transform 0.8s ease-out;
+	transition: opacity 1.3s, transform 1.3s;
 }
 
 .loaded {
