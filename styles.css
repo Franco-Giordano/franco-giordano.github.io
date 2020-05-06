@@ -465,7 +465,7 @@ li .description {
 	}
 	.btncontainer {
 		position: relative;
-		bottom: -23vh;
+		top: 20vh;
 		text-align: center;
 	}
 	footer {
