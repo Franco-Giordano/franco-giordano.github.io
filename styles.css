@@ -135,6 +135,13 @@ h1.name {
 	line-height: 55px;
 }
 
+.spec {
+	font-size: 27px;
+	font-weight: 300;
+	color: #4D515C;
+	margin-top: 10px;
+}
+
 /*hero ends*/
 
 /*skills & intrests*/
@@ -442,13 +449,23 @@ li .description {
 	}
 
 	.lead {
-		margin-top: 15px;
+		margin-top: 60px;
 		font-size: 20px;
 		line-height: 28px;
+	}
+	.spec {
+		font-size: 17px;
+		font-weight: 300;
+		color: #4D515C;
+		margin-top: 10px;
 	}
 	.container {
 		margin: 0px;
 		padding: 0 15px;
+	}
+	.btncontainer {
+		margin-top: 40vh;
+		text-align: center;
 	}
 	footer {
 		margin-top: 2050px;
