@@ -50,6 +50,8 @@ body {
 	transform: translateY(20px);
 	transition: opacity 1.3s;
 	text-shadow: 5px 5px 40px rgba(70,70,70,1);
+	-moz-text-shadow: 5px 5px 40px rgba(70,70,70,1);
+
 }
 
 .loaded {

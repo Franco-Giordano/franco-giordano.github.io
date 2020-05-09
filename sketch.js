@@ -44,11 +44,13 @@ class Ant {
 		point(Math.ceil(this.tipVec.x/this.gridSize)*this.gridSize, Math.ceil(this.tipVec.y/this.gridSize)*this.gridSize);
 	}
 
-
 }
 
 
 function setup() {
+
+	frameRate(10);
+
 	canvas = createCanvas(windowWidth, windowHeight);
 	canvas.position(0,0);
 	canvas.style("z-index", -1);
