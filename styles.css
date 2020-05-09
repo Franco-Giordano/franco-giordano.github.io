@@ -45,10 +45,11 @@ body {
 	-webkit-font-smoothing : antialiased;
 	font-size: 19px;
 	background-color: #FEFEFE;
-	color: #04143A;
+	color: #091634;
 	opacity: 0;
 	transform: translateY(20px);
-	transition: opacity 1.3s, transform 1.3s;
+	transition: opacity 1.3s;
+	text-shadow: 5px 5px 40px rgba(100,100,100,0.15);
 }
 
 .loaded {
@@ -124,7 +125,7 @@ h1.name {
 	display: block;
 	font-size: 24px;
 	font-weight: 300;
-	color: #81899C;
+	color: #848a9a;
 	margin-top: 10px;
 }
 
@@ -492,6 +493,7 @@ li .description {
   color: #3498db;
   overflow: hidden;
   position: relative;
+  text-shadow: none;
 }
 .btn i{
   line-height: 55px;
