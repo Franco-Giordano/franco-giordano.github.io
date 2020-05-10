@@ -83,6 +83,10 @@ function draw() {
 	}
 }
 
+function mousePressed() {
+	ants.push(new Ant(mouseX, mouseY, myGridSize));
+}
+
 function windowResized() {
 	resizeCanvas(windowWidth, windowHeight);
 	setup();
