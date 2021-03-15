@@ -91,6 +91,10 @@ div , footer {
 
 /* Reset ends */
 
+::selection {
+	color: #fbfbfb;
+	background: #373737;
+}
 
 /*Hero section*/
 
